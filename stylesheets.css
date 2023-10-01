@@ -68,3 +68,53 @@ body {
 .input-number {
     text-align: left;
 }
+
+.selection-bar {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(164, 255, 249);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 19px 30px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-selection {
+    display: flex;
+    justify-content: space-evenly left ;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.list-selection li {
+    padding: 10px;
+    margin: 10px;
+    display: inline;
+    font-size: 20px;
+    height: fit-content;
+    width: fit-content;
+    border-radius:10px ;
+}
+
+.create-by h2{
+    font-size: 10px;
+    width: 100px;
+    height: fit-content;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:link{
+    text-decoration : none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: wheat;
+}
